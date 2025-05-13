@@ -1,2 +1,5 @@
 pandas 
 pytest
+uvicorn
+fastapi
+httpx
