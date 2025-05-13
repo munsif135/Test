@@ -48,4 +48,4 @@ def test_mul_endpoint():
 
     response = client.post("/mul", params={"a": 2, "b": -1})
     assert response.status_code == 200
-    assert response.json() == {"result": 2}
+    assert response.json() == {"result": -2}
