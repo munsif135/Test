@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from tests.test_operation import add, sub, mul
+from src.math_operations import add, sub, mul
 
 
 chatbot_app = FastAPI(debug=True)
